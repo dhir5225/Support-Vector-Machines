@@ -74,7 +74,13 @@ Since we are in 3-d Space, hence it is looking like a plane parallel to the x-ax
 
 ![image](https://user-images.githubusercontent.com/109084435/198834816-f8c5cd00-f6a8-4243-8db3-202d5da45d92.png)
 
-The advantages of support vector machines are:
+In this case, the new variable y is created as a function of distance from the origin. A non-linear function that creates a new variable is referred to as kernel.
+
+### SVM Kernel:
+
+The SVM kernel is a function that takes low dimensional input space and transforms it into higher-dimensional space, ie it converts non separable problem to separable problem. It is mostly useful in non-linear separation problems. Simply put the kernel, it does some extremely complex data transformations then finds out the process to separate the data based on the labels or outputs defined.
+
+#### Advantages of SVM
 
 -Effective in high dimensional spaces.
 
@@ -84,7 +90,7 @@ The advantages of support vector machines are:
 
 -Versatile: different Kernel functions can be specified for the decision function. Common kernels are provided, but it is also possible to specify custom kernels.
 
-The disadvantages of support vector machines include:
+#### Disadvantages of SVM:
 
 -If the number of features is much greater than the number of samples, avoid over-fitting in choosing Kernel functions and regularization term is crucial.
 
